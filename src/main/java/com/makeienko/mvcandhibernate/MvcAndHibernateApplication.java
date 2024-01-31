@@ -10,4 +10,13 @@ public class MvcAndHibernateApplication {
         SpringApplication.run(MvcAndHibernateApplication.class, args);
     }
 
+//    @Bean
+//    public CommandLineRunner run(ClientRepository clientRepository) {
+//        return args -> {
+//            clientRepository.save(new Client("Oleg", "Makeienko", 41, "molva83@gmail.com", "Citroen"));
+//            //courseRepository.save(new Client(2l, "Physics", 25));
+//            //courseRepository.save(new Client(3l, "Biology", 35));
+//        };
+//    }
+
 }
